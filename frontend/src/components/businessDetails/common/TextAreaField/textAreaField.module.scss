@@ -1,0 +1,26 @@
+.fieldWrapper{
+    width: 100%;
+    .fieldLabel{
+        margin-bottom: 4px;
+        color: #7a7a7a;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .textarea{
+        width: 100%;
+        border-color: #d4b768;
+        resize: none;
+        height: 128px;
+        border-radius: 5px;
+        padding: 12px 24px;
+        outline: none;
+        &::placeholder {
+        opacity: 0.5;
+        }
+        &.textareaDisabled{
+            border-color: rgba(212,183,104, 0.6);
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+    }
+}

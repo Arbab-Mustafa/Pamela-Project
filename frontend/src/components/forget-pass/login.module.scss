@@ -1,0 +1,138 @@
+.wrap {
+  min-height: 100vh;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .loginLeft {
+    flex: 45%;
+    height: inherit;
+    min-height: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    .backBtnWrapper{
+      position: absolute;
+      top: 25px;
+      .backBtn{
+        padding: 5px 15px 5px 10px;
+        border: 1px solid #d4b768;
+        border-radius: 8px;
+        color: #d4b768;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        width: 90px;
+        &:hover {
+          background-color: #d4b768;
+          color: #fff;
+        }
+      }
+    }
+    .loginLeftContent{
+      max-width: 80%;
+      width: 100%;
+    .heading {
+      font-size: 28px;
+      margin-bottom: 32px;
+      color: #1d1d1d;
+      font-weight: 600;
+      text-align: center;
+    }
+    :global {
+      .form-control {
+        min-height: 50px !important;
+        border: 1px solid #d4b768;
+      }
+      .form-check-input {
+        border: 1px solid #d4b768;
+      }
+      .form-control:focus {
+        color: #000000;
+        background-color: #fff;
+        border-color: #d4b768;
+        outline: 0;
+        box-shadow: none;
+      }
+      .form-check-input:checked {
+        background-color: #d4b768;
+        border-color: #d4b768;
+        box-shadow: none;
+      }
+      .form-check-input:focus {
+        border-color: #d4b768;
+        outline: 0;
+        box-shadow: none;
+      }
+    }
+    .loginBtnWrapper{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    .loginBtn {
+      background-color: #d4b768;
+      border: 1px solid #d4b768;
+      outline: none;
+      box-shadow: none;
+      border-radius: 8px;
+      margin: 0 auto;
+      width: 100px;
+      &:hover {
+        background-color: transparent;
+        color: #d4b768;
+      }
+    }
+  }
+  }
+  .createAccountWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto 10px auto;
+    span {
+      color: #1d1d1d;
+      font-size: 16px
+    }
+    a{
+      color: #1d1d1d;
+      font-size: 16px;
+      font-weight: 600;
+      text-decoration: none;
+    }
+  }
+  }
+  .loginRight{
+    height: inherit;
+    min-height: inherit;
+    flex: 55%;
+    background-image: linear-gradient(180deg,#fef6ed,hsla(0,0%,100%,0) 96%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .mainblock {
+      max-width: 570px;
+      margin: 0 auto;
+      .main {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
+@media (max-width: 992px) {
+  .wrap {
+      .heading{
+            text-align: center;
+      }
+      .loginRight {
+        display: none;
+      }
+      .button {
+       display: flex;
+        justify-content: center;
+      }
+    }
+  }

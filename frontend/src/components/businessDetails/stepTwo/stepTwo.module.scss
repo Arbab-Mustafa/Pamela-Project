@@ -1,0 +1,45 @@
+.stepWrapper {
+    .detailCardDesciption{
+        font-size: 16px;
+        color: #4e4e4e;
+    }
+    .detailCardFieldsWrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        column-gap: 10px;
+        row-gap: 30px;
+        .inpField{
+            max-width: 47%;
+            width: 100%;
+            @media (max-width: 768px) {
+                max-width: 100%;
+              }
+        }
+    }
+    .detailCardList{
+        list-style: none;
+        padding-left: 0;
+        li {
+            text-decoration: none;
+            display: flex;
+            align-items: flex-start;
+            img{
+                margin: 3px 5px 0 0;
+            }
+        }
+    }
+    .addressSelectWrapper{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 20px;
+        height: max-content;
+        :global{
+        .offer-card-wrapper{
+            flex: 47%;
+            height: unset;
+        }
+    }
+    }
+}

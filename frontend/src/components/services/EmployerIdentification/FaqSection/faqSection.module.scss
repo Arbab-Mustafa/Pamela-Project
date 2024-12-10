@@ -1,0 +1,21 @@
+.faqSectionWrapper{
+    background-image: linear-gradient(rgb(254, 246, 237) 4%, rgba(255, 255, 255, 0) 99%) !important;
+    padding: 100px 20px;
+    .faqsHeading{
+        max-width: 570px;
+        text-align: center;
+        margin: 0 auto;
+        padding-bottom: 50px;
+
+        h2{
+        font-size: 36px;
+        color: rgba(29,29,29,1.0);
+        font-weight: 600;
+    }
+    }
+    .faqsAccordionWrapper{
+    max-width: 770px;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+}

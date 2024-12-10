@@ -1,0 +1,182 @@
+.wrap {
+  padding: 150px 0 100px 0;
+  background: #fef6ed;
+  .row {
+    .textblock {
+      text-align: center;
+      .heading {
+        padding-bottom: 24px;
+        // max-width: 650px;
+        margin: 0 auto;
+        font-size: 47px;
+        font-weight: 600;
+        color: rgba(29, 29, 29, 1);
+      }
+      .tagline {
+        font-size: 20px;
+        font-weight: 400;
+        color: #4e4e4e;
+        margin-bottom: 40px;
+      }
+      .stateTagline {
+        font-size: 20px;
+        font-weight: 400;
+        color: #4e4e4e;
+        max-width: 460px;
+        margin: 0 auto;
+      }
+      .formSelectsWrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 40px;
+        .formSelect {
+          max-width: 450px;
+          width: 100%;
+        }
+      }
+      .ratingblock {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        margin-bottom: 30px;
+        .iocn1block {
+          .icon {
+            max-width: 100%;
+          }
+        }
+        .textblock {
+          .title {
+            font-size: 15px;
+            font-weight: 900;
+            line-height: 1.6;
+            color: rgb(78, 78, 78);
+            padding-bottom: 2px;
+            transition: color 0.3s ease 0s;
+            margin-bottom: 0px;
+          }
+          .starblock {
+            display: flex;
+            align-items: center;
+
+            .subtitle {
+              color: rgb(135, 135, 135);
+              font-size: 14px;
+              font-weight: 900;
+              margin-bottom: 0px;
+              padding-left: 10px;
+            }
+          }
+        }
+      }
+    }
+    .mainicon {
+      position: absolute;
+      top: 50px;
+      .main {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+  }
+  :global {
+    .react-select-container {
+      text-align: left;
+      .react-select__control--is-focused {
+        outline: none !important;
+        border-color: #d4b768 !important;
+      }
+      .react-select__control {
+        box-shadow: none !important;
+        min-height: 50px;
+        border-color: #d4b768;
+        &:hover {
+          border-color: #d4b768 !important;
+          box-shadow: none !important;
+          .react-select__indicator {
+            color: #d4b768;
+          }
+        }
+        .react-select__indicators {
+          .react-select__indicator-separator {
+            display: none !important;
+          }
+        }
+      }
+      .react-select__indicator {
+        color: #d4b768;
+        padding: 0 16px;
+      }
+      .react-select__single-value {
+        color: #1d1d1d;
+        font-weight: 400;
+        font-size: 16px;
+      }
+      .react-select__placeholder {
+        font-weight: 500;
+        font-size: 16px;
+        color: #1d1d1d;
+      }
+      .react-select__menu {
+        .react-select__menu-list {
+          padding: 0px !important;
+          background-color: #f6f9ff;
+          border: 1px solid #d4b768;
+          border-radius: 4px;
+        }
+        .react-select__option--is-focused {
+          background-color: #d4b768;
+          color: #fff;
+        }
+        .react-select__option--is-selected {
+          background-color: #d4b768;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1400px) {
+  .wrap {
+    .row {
+      .mainicon {
+        .icon {
+          max-width: 80%;
+          height: auto;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 992px) {
+  .wrap {
+    padding: 50px 0;
+    .row {
+      .textblock {
+        .heading {
+          margin-top: 40px;
+          max-width: 100%;
+          padding: 0 15px;
+          text-align: center;
+        }
+        .tagline {
+          max-width: 100%;
+          padding: 0 15px;
+          text-align: center;
+        }
+        .ratingblock {
+          justify-content: center;
+        }
+      }
+      .mainicon {
+        position: static;
+        .icon {
+          max-width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
+}

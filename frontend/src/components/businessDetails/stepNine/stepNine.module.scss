@@ -1,0 +1,28 @@
+.stepWrapper {
+    .detailCardTitle{
+        font-size: 18px;
+        font-weight: 600;
+        color: #4e4e4e;
+    }
+    .detailCardDesciption{
+        font-size: 16px;
+        color: #4e4e4e;
+        margin-bottom: 8px;
+        b{
+            margin-right: 4px;
+            font-weight: 600;
+        }
+    }
+    .memberNo{
+        background-color: #EEF9FE;
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+        color: #4E4E4E;
+        padding: 16px 0;
+        margin-right: 24px;
+        width: 32px;
+        justify-content: center;
+        border-radius: 2px;
+    }
+}

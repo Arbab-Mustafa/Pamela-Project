@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="33" height="32" viewBox="0 0 33 32">
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <path fill="#FFF" fill-opacity="0" d="M0 0H32V32H0z" transform="translate(-278 -5821) translate(278 5821)"/>
+                <g>
+                    <path fill="#F6C4C6" fill-rule="nonzero" d="M29.68 8.39v18.49c0 1.13-.96 2.09-2.09 2.09H5.07c-2.23 0-4.03-1.8-4.03-4.03l.14-16.41c.01-1.22 1-2.21 2.23-2.21h24.21c1.14.01 2.06.93 2.06 2.07z" transform="translate(-278 -5821) translate(278 5821) translate(0 1)"/>
+                    <path stroke="#1D1D1B" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4" d="M31.31 6.79v18.48c0 1.61-.94 2.99-2.3 3.64-.52.25-1.11.39-1.73.39H4.78c-2.23 0-4.03-1.8-4.03-4.03V6.79c0-.05 0-.09.01-.14.06-1.07.96-1.92 2.06-1.92h2.24v1.92c0 1.1.9 2 2 2s2-.9 2-2V4.73h14.29v1.92c0 1.1.9 2 2 2 1.11 0 2-.9 2-2V4.73h1.89c1.14 0 2.07.92 2.07 2.06zM.89 10.82L31.31 10.82" transform="translate(-278 -5821) translate(278 5821) translate(0 1)"/>
+                    <path fill="#FFF" fill-rule="nonzero" stroke="#1D1D1B" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4" d="M27.35 2.45v4.2c0 1.1-.89 2-2 2-1.1 0-2-.9-2-2v-4.2c0-1.11.9-2 2-2 .56 0 1.06.23 1.42.59.36.36.58.85.58 1.41zM9.06 2.45v4.2c0 1.1-.9 2-2 2s-2-.9-2-2v-4.2c0-1.11.9-2 2-2 .56 0 1.05.23 1.41.59.37.36.59.85.59 1.41z" transform="translate(-278 -5821) translate(278 5821) translate(0 1)"/>
+                    <g stroke="#1D1D1B" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4">
+                        <path d="M1.06 1.37L1.06 1.37" transform="translate(-278 -5821) translate(278 5821) translate(0 1) translate(4 14)"/>
+                        <path stroke-dasharray="0 4.232" d="M5.29 1.37L20.1 1.37" transform="translate(-278 -5821) translate(278 5821) translate(0 1) translate(4 14)"/>
+                        <path d="M22.22 1.37L22.22 1.37" transform="translate(-278 -5821) translate(278 5821) translate(0 1) translate(4 14)"/>
+                        <g>
+                            <path d="M1.06 0.55L1.06 0.55" transform="translate(-278 -5821) translate(278 5821) translate(0 1) translate(4 14) translate(0 5)"/>
+                            <path stroke-dasharray="0 4.232" d="M5.29 0.55L20.1 0.55" transform="translate(-278 -5821) translate(278 5821) translate(0 1) translate(4 14) translate(0 5)"/>
+                            <path d="M22.22 0.55L22.22 0.55" transform="translate(-278 -5821) translate(278 5821) translate(0 1) translate(4 14) translate(0 5)"/>
+                        </g>
+                        <g>
+                            <path d="M1.06 0.69L1.06 0.69" transform="translate(-278 -5821) translate(278 5821) translate(0 1) translate(4 14) translate(0 9)"/>
+                            <path stroke-dasharray="0 4.232" d="M5.29 0.69L20.1 0.69" transform="translate(-278 -5821) translate(278 5821) translate(0 1) translate(4 14) translate(0 9)"/>
+                            <path d="M22.22 0.69L22.22 0.69" transform="translate(-278 -5821) translate(278 5821) translate(0 1) translate(4 14) translate(0 9)"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

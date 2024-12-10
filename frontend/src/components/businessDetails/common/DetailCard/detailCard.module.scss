@@ -1,0 +1,35 @@
+.detailCardWrapper{
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 24px 32px 0 hsl(0deg 0% 93% / 50%);
+    margin-bottom: 30px;
+    transition: all 0.5s linear;
+    .detailCardTitle{
+        border-bottom: 1px solid #f4f4f4;
+        color: #1d1d1d;
+        font-size: 20px;
+        padding: 24px 32px;
+    }
+    .detailCardContent{
+        padding: 24px 22px 32px;
+    }
+    .detailCardTitleWrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 24px 32px;
+        border-bottom: 1px solid #f4f4f4;
+        .detailCardTitle{
+            all: unset;
+            color: #1d1d1d;
+            font-size: 20px;   
+        }
+        .editBtn{
+            all: unset;
+            font-size: 16px;
+            color: #5089FD;
+            font-weight: 600;
+            cursor: pointer;
+        }
+    }
+}

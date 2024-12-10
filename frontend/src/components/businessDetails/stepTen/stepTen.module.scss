@@ -1,0 +1,110 @@
+.stepWrapper {
+    .testimonialsWrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        column-gap: 10px;
+        row-gap: 10px;
+        margin-bottom: 30px;
+        .testimonial {
+            max-width: 47%;
+            margin-top: 16px;
+            padding: 24px 20px 15px;
+            border: solid 1px #e7eeff;
+            background-color: #fbfcff;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .quoteIcon{
+                width: 37px;
+                height: 26px;
+                object-fit: contain;
+                position: absolute;
+                top: -10px;
+                left: -8px;
+                margin: 0;
+            }
+            .testimonialQuote{
+                font-size: 15px;
+                color: #757575;
+            }
+            .testimonialAuthor{
+                font-size: 15px;
+                font-weight: 600;
+                margin-top: 10px;
+            }
+        }
+    }
+    .detailCardTitle{
+        font-size: 18px;
+        font-weight: 600;
+        color: #4e4e4e;
+    }
+    .detailCardDesciption{
+        font-size: 16px;
+        color: #4e4e4e;
+        margin-bottom: 8px;
+        b{
+            margin-right: 4px;
+            font-weight: 600;
+        }
+    }
+    .memberNo{
+        background-color: #EEF9FE;
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+        color: #4E4E4E;
+        padding: 16px 0;
+        margin-right: 24px;
+        width: 32px;
+        justify-content: center;
+        border-radius: 2px;
+    }
+    .detailCardFieldsWrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        column-gap: 10px;
+        row-gap: 10px;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        box-shadow: 0 24px 32px 0 hsl(0deg 0% 93% / 50%);
+        padding: 30px;
+        .inpField{
+            max-width: 47%;
+            width: 100%;
+        }
+        .ssnInpField{
+            max-width: 47%;
+            width: 100%;
+            input{
+                text-align: center;
+                &::placeholder {
+                    text-align: center;
+                }
+            }
+        }
+    }
+    :global {
+        .form-check{
+            label {
+                line-height: unset;
+                margin: 0;
+                margin-top: 2px;
+            }
+        }
+        .form-check-input {
+            box-shadow: none;
+            margin-right: 10px;
+            padding: 9px;
+            border-color: #d4b768;
+          }
+          .form-check-input:checked {
+            background-color: #d4b768;
+            border-color: #d4b768;
+          }
+    }
+}

@@ -1,0 +1,55 @@
+.wrap {
+    padding: 50px 0 50px 0;
+    .textblock{
+        max-width: 850px;
+        margin: 0 auto;
+        margin-bottom: 60px;
+        .heading{
+            font-weight: 600;
+            font-size: 40px;
+            color: #1d1d1d;
+            margin: 0 0 32px 0;
+            text-align: center;
+        }
+    }
+    .row {
+        align-items: center;
+        justify-content: center;
+        .licenseCard {
+            display: flex;
+            flex-direction: column;
+            -webkit-box-pack: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            align-items: center;
+            width: 100%;
+            background-color: #fff;
+            box-shadow: rgb(236 236 236 / 50%) 0px 24px 32px 0px;
+            padding: 40px 24px;
+            min-height: 350px;
+            margin-bottom: 60px;
+            .licenseCardImg {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 140px;
+                width: 140px;
+                margin-bottom: 45px;
+                position: relative;
+                img {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    object-position: center center;
+                    object-fit: contain;
+                }
+            }
+            .licenseCardContent {
+                text-align: center;
+            }
+        }
+    }
+}

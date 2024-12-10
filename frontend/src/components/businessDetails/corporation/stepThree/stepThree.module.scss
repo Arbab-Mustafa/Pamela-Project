@@ -1,0 +1,79 @@
+.stepWrapper {
+  .stepperNextBtn {
+    display: flex;
+
+    justify-content: flex-end;
+    align-items: center;
+    height: auto;
+    background-color: #d4b768;
+    border: 2px solid #d4b768;
+    border-radius: 50px;
+    text-decoration: none;
+    padding: 10px 32px;
+    margin: 0px 0px 32px;
+    transition: background-color 0.3s ease 0s, color 0.3s ease 0s;
+    cursor: pointer;
+    max-width: 280px;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    margin-top: 20px;
+    .icon {
+      font-size: 20px;
+      width: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      font-weight: 700;
+    }
+    &:hover {
+      background-color: #fff;
+      color: #d4b768;
+      .icon {
+        color: #d4b768;
+        transform: translate(10px, 0);
+        transition: transform 0.3s ease 0s;
+      }
+    }
+  }
+  .detailCardDesciption {
+    font-size: 16px;
+    color: #4e4e4e;
+    margin-bottom: 10px;
+  }
+  .infoTitle {
+    color: #1d1d1d;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .detailCardFieldsWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 10px;
+    row-gap: 30px;
+    .inpField {
+      max-width: 47%;
+      width: 100%;
+    }
+  }
+  :global {
+    .form-check-input {
+      outline: 10px solid rgba(221, 221, 221, 0.7);
+      box-shadow: none;
+      margin-right: 20px;
+      cursor: pointer;
+    }
+    .form-check-input:checked {
+      background-color: #d4b768;
+      box-shadow: none;
+      background-image: none;
+      border: none;
+    }
+  }
+}

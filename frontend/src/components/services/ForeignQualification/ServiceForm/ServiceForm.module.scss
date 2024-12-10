@@ -1,0 +1,1045 @@
+.wrap {
+  padding: 100px 0;
+  .textblock {
+    margin-bottom: 60px;
+    .heading {
+      color: #1d1d1d;
+      font-weight: 600px;
+      font-size: 32px;
+    }
+    .tagline {
+      color: #4e4e4e;
+      font-size: 16px;
+      font-weight: 400;
+    }
+  }
+  .detailCardFieldsWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 10px;
+    row-gap: 30px;
+    .inpField {
+      max-width: 47%;
+      width: 100%;
+      @media (max-width: 768px) {
+        max-width: 100%;
+      }
+    }
+  }
+  .inpFieldSSn {
+    max-width: 47%;
+    width: 100%;
+    input {
+      text-align: center;
+    }
+  }
+  .subtitle {
+    margin-bottom: 4px;
+    color: #7a7a7a;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    b {
+      font-weight: 600;
+    }
+  }
+  .contactinformation {
+    // background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 24px 32px 0 hsl(0deg 0% 93% / 50%);
+    margin-bottom: 30px;
+    transition: all 0.5s linear;
+    .title {
+      align-items: center;
+      border-bottom: 1px solid #f4f4f4;
+      color: #1d1d1d;
+      display: flex;
+      font-size: 20px;
+      padding: 24px 32px;
+    }
+    .formblock {
+      padding: 24px 22px 32px;
+      .form {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        column-gap: 30px;
+        row-gap: 30px;
+        .subtitle {
+          margin-bottom: 4px;
+          color: #7a7a7a;
+          cursor: pointer;
+          font-size: 14px;
+          font-weight: 400;
+        }
+        .input {
+          width: 100%;
+          box-shadow: none;
+          color: #1d1d1d;
+          height: 48px;
+          background-color: #fcfcfc;
+          border: 1px solid #d4b768;
+          border-radius: 5px;
+          color: #1d1d1d;
+          display: flex;
+          font-size: 16px;
+          padding: 12px 24px;
+          &:focus-visible {
+            outline: none;
+          }
+        }
+        :global {
+          .react-tel-input .country-list .country .dial-code {
+            color: #000000 !important;
+          }
+          .react-tel-input {
+            width: 100%;
+            border-radius: 5px;
+            background-color: #d4b768;
+
+            .flag-dropdown {
+              .selected-flag:focus {
+                background-color: #d4b768 !important;
+              }
+              .selected-flag:hover {
+                background-color: #d4b768 !important;
+              }
+              .country-list {
+                background-color: #ffffff !important;
+                color: #000000 !important;
+                border: 1px solid grey;
+                border-radius: 10px;
+
+                .country.highlight {
+                  background-color: #d4b768;
+                  color: #fcfcfc;
+                }
+                .country:hover {
+                  background-color: #d4b768;
+
+                  color: #000000 !important;
+                  .dial-code:hover {
+                    color: #000000 !important;
+                  }
+                }
+              }
+              .flag-dropdown.open {
+                background-color: #1d1d1d !important;
+                margin-bottom: 15px !important;
+                .selected-flag {
+                  background-color: #d4b768 !important;
+                  &:focus {
+                    background: #d4b768 !important;
+                  }
+                  &:hover {
+                    background: #d4b768 !important;
+                  }
+                }
+              }
+            }
+            @media (max-width: 768px) {
+              max-width: 100%;
+            }
+            .form-control {
+              min-height: 48px;
+              width: 100%;
+              background: #fcfcfc;
+              border: 1px solid #d4b768;
+              transition: none !important;
+              color: #000000 !important;
+              font-weight: 300 !important;
+              font-size: 18px !important;
+              padding-left: 45px !important;
+              .flag-dropdown {
+                outline: none !important;
+              }
+            }
+            .form-control:focus {
+              outline: none !important;
+              box-shadow: none !important;
+            }
+            .flag-dropdown {
+              background-color: #d4b768 !important;
+              border: none !important;
+              &:hover {
+                background: #d4b768 !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.wrap {
+  .companyinformation {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 24px 32px 0 hsl(0deg 0% 93% / 50%);
+    margin-bottom: 30px;
+    transition: all 0.5s linear;
+
+    .title {
+      align-items: center;
+      border-bottom: 1px solid #f4f4f4;
+      color: #1d1d1d;
+      display: flex;
+      font-size: 20px;
+      padding: 24px 32px;
+    }
+    .cardblock {
+      //   padding: 40px 0;
+      padding: 24px 22px 32px;
+      .card {
+        display: flex;
+        align-items: center;
+        padding: 28px 32px;
+        border-radius: 16px;
+        gap: 40px;
+        transition: all 0.3s ease-out 0s;
+        background-color: rgb(254, 246, 237);
+        .textblock {
+          margin-bottom: 0px;
+          .subtitle {
+            margin-bottom: 0px;
+          }
+        }
+      }
+    }
+    .formblock {
+      padding: 24px 22px 32px;
+      .form {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        column-gap: 10px;
+        row-gap: 30px;
+        .form1,
+        .form2,
+        .form3 {
+          max-width: 47%;
+          width: 100%;
+          min-height: 50px;
+          .subtitle {
+            margin-bottom: 4px;
+            color: #7a7a7a;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 400;
+          }
+          @media (max-width: 1200px) {
+            max-width: 47%;
+          }
+          @media (max-width: 768px) {
+            max-width: 100%;
+          }
+        }
+        .formCompanyName {
+          max-width: 64%;
+          width: 100%;
+          min-height: 50px;
+          .subtitle {
+            margin-bottom: 4px;
+            color: #7a7a7a;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 400;
+          }
+          .formInpWrapper {
+            max-width: 100%;
+            .subtitle {
+              margin-bottom: 4px;
+              color: #7a7a7a;
+              cursor: pointer;
+              font-size: 14px;
+              font-weight: 400;
+            }
+            .input {
+              width: 100%;
+              // max-width: 47%;
+              box-shadow: none;
+              color: #1d1d1d;
+              height: 48px;
+              background-color: #fcfcfc;
+              border: 1px solid #d4b768;
+              border-radius: 5px;
+              color: #1d1d1d;
+              display: flex;
+              font-size: 16px;
+              padding: 12px 24px;
+              &:focus-visible {
+                outline: none;
+              }
+            }
+          }
+          @media (max-width: 1200px) {
+            max-width: 47%;
+          }
+          @media (max-width: 768px) {
+            max-width: 100%;
+          }
+        }
+        .formDesignator {
+          max-width: 32%;
+          width: 100%;
+          @media (max-width: 1200px) {
+            max-width: 47%;
+          }
+          @media (max-width: 768px) {
+            max-width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+.wrap {
+  .companyaddress {
+    // background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 24px 32px 0 hsl(0deg 0% 93% / 50%);
+    margin-bottom: 30px;
+    transition: all 0.5s linear;
+    .title {
+      align-items: center;
+      border-bottom: 1px solid #f4f4f4;
+      color: #1d1d1d;
+      display: flex;
+      font-size: 20px;
+      padding: 24px 32px;
+    }
+    .formblock {
+      padding: 24px 22px 32px;
+      .form {
+        :global {
+          .react-select-container {
+            flex: 1;
+            .react-select__control {
+              min-height: 48px !important;
+              max-width: 100% !important;
+              background: #fcfcfc;
+            }
+          }
+        }
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 30px;
+        row-gap: 30px;
+        .input {
+          width: 100%;
+          // max-width: 47%;
+          box-shadow: none;
+          color: #1d1d1d;
+          height: 48px;
+          background-color: #fcfcfc;
+          border: 1px solid #d4b768;
+          border-radius: 5px;
+          color: #1d1d1d;
+          display: flex;
+          font-size: 16px;
+          padding: 12px 24px;
+          &:focus-visible {
+            outline: none;
+          }
+          @media (max-width: 768px) {
+            max-width: 100%;
+          }
+        }
+        .selectzip {
+          display: flex;
+          gap: 20px;
+          width: 100%;
+          max-width: 47%;
+          @media (max-width: 1200px) {
+            max-width: 100%;
+          }
+          @media (max-width: 556px) {
+            flex-direction: column;
+          }
+        }
+        .postal_code {
+          max-width: 130px;
+          @media (max-width: 556px) {
+            max-width: 100%;
+          }
+        }
+        .inputzip {
+          width: 100%;
+          box-shadow: none;
+          color: #1d1d1d;
+          height: 48px;
+          background-color: #fcfcfc;
+          border: 1px solid #d4b768;
+          border-radius: 5px;
+          color: #1d1d1d;
+          display: flex;
+          font-size: 16px;
+          padding: 12px 24px;
+          &:focus-visible {
+            outline: none;
+          }
+        }
+      }
+    }
+  }
+  .amendmentInfo {
+    border-radius: 5px;
+    box-shadow: 0 24px 32px 0 hsl(0deg 0% 93% / 50%);
+    margin-bottom: 30px;
+    transition: all 0.5s linear;
+    .title {
+      align-items: center;
+      border-bottom: 1px solid #f4f4f4;
+      color: #1d1d1d;
+      display: flex;
+      font-size: 20px;
+      padding: 24px 32px;
+    }
+    .form {
+      padding: 24px 22px 32px;
+      p {
+        color: #7a7a7a;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+      }
+      :global {
+        .form-check-input {
+          outline: 10px solid rgba(221, 221, 221, 0.7);
+          box-shadow: none;
+          margin-right: 20px;
+        }
+        .form-check-input:checked {
+          background-color: #d4b768;
+          box-shadow: none;
+          background-image: none;
+          border: none;
+        }
+        textarea {
+          width: 100%;
+          border-color: #d4b768;
+          resize: none;
+          height: 128px;
+          border-radius: 5px;
+          padding: 12px 24px;
+          outline: none;
+          &::placeholder {
+            opacity: 0.5;
+          }
+        }
+      }
+      .companyInfoWrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        column-gap: 10px;
+        row-gap: 30px;
+        margin-bottom: 20px;
+        .formCompanyName {
+          max-width: 66%;
+          width: 100%;
+          min-height: 50px;
+          .subtitle {
+            margin-bottom: 4px;
+            color: #7a7a7a;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 400;
+          }
+          .formInpWrapper {
+            max-width: 100%;
+            .subtitle {
+              margin-bottom: 4px;
+              color: #7a7a7a;
+              cursor: pointer;
+              font-size: 14px;
+              font-weight: 400;
+            }
+            .input {
+              width: 100%;
+              // max-width: 47%;
+              box-shadow: none;
+              color: #1d1d1d;
+              height: 48px;
+              background-color: #fcfcfc;
+              border: 1px solid #d4b768;
+              border-radius: 5px;
+              color: #1d1d1d;
+              display: flex;
+              font-size: 16px;
+              padding: 12px 24px;
+              &:focus-visible {
+                outline: none;
+              }
+            }
+          }
+          @media (max-width: 1200px) {
+            max-width: 47%;
+          }
+          @media (max-width: 768px) {
+            max-width: 100%;
+          }
+        }
+        .formDesignator {
+          max-width: 32%;
+          width: 100%;
+          min-height: 50px;
+          .subtitle {
+            margin-bottom: 4px;
+            color: #7a7a7a;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 400;
+          }
+          @media (max-width: 1200px) {
+            max-width: 47%;
+          }
+          @media (max-width: 768px) {
+            max-width: 100%;
+          }
+        }
+      }
+    }
+  }
+  .nextBtnWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 70px 0 50px 0;
+    .btn {
+      outline: none;
+      border: none;
+      color: #fff;
+      font-size: 16px;
+      font-weight: 700;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #d4b768;
+      border: 2px solid #d4b768;
+      border-radius: 50px;
+      padding: 10px 32px;
+      margin: 0px 0px 32px;
+      transition: background-color 0.3s ease 0s, color 0.3s ease 0s;
+      cursor: pointer;
+      max-width: 150px;
+      width: 100%;
+      .icon {
+        font-size: 20px;
+        width: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        font-weight: 700;
+      }
+      &:hover {
+        background-color: #fff;
+        color: #d4b768;
+        .icon {
+          color: #d4b768;
+          transform: translate(10px, 0);
+          transition: transform 0.3s ease 0s;
+        }
+      }
+    }
+  }
+  .orderSummary {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 24px 32px 0 hsla(0, 0%, 93%, 0.5);
+    padding: 48px 32px 40px;
+    .orderTitle {
+      font-size: 20px;
+      font-weight: 600;
+      color: #1d1d1d;
+      text-align: center;
+      margin-bottom: 8px;
+    }
+    .orderPrice {
+      font-size: 26px;
+      font-weight: 600;
+      color: #4e4e4e;
+      text-align: center;
+    }
+    .orderStat {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 8px;
+      .orderStatTitle {
+        font-size: 16px;
+        color: #4e4e4e;
+        font-weight: 400;
+      }
+      .orderStatValue {
+        font-size: 16px;
+        color: #4e4e4e;
+        font-weight: 400;
+      }
+      .orderStatTotalValue {
+        font-size: 16px;
+        color: #1d1d1d;
+        font-weight: 600;
+      }
+    }
+    .orderFaqsWrapper {
+      display: flex;
+      align-items: flex-start;
+      .orderFaqsImg {
+        width: 32px;
+        height: 32px;
+        min-width: 32px;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .orderFaqs {
+        margin-left: 10px;
+        h6 {
+          font-size: 16px;
+          font-weight: 500;
+          color: #1d1d1d;
+          margin-bottom: 10px;
+        }
+        p {
+          font-size: 16px;
+          color: #4e4e4e;
+        }
+      }
+    }
+  }
+}
+.wrap {
+  :global {
+    .react-select-container {
+      .react-select__control--is-focused {
+        outline: none !important;
+        border-color: #d4b768 !important;
+      }
+      .react-select__control {
+        box-shadow: none !important;
+        min-height: 50px;
+        border-color: #d4b768;
+        background: #fcfcfc;
+        &:hover {
+          border-color: #d4b768 !important;
+          box-shadow: none !important;
+          .react-select__indicator {
+            color: #d4b768;
+          }
+        }
+        .react-select__indicators {
+          .react-select__indicator-separator {
+            display: none !important;
+          }
+        }
+      }
+      .react-select__indicator {
+        color: #d4b768;
+        padding: 0 16px;
+      }
+      .react-select__single-value {
+        color: #1d1d1d;
+        font-weight: 400;
+        font-size: 16px;
+      }
+      .react-select__menu {
+        .react-select__menu-list {
+          padding: 0px !important;
+          background-color: #f6f9ff;
+          border: 1px solid #d4b768;
+          border-radius: 4px;
+        }
+        .react-select__option--is-focused {
+          background-color: #d4b768;
+          color: #fff;
+        }
+        .react-select__option--is-selected {
+          background-color: #282828;
+          color: #fff;
+        }
+      }
+    }
+  }
+  .formInpWrapper {
+    max-width: 47%;
+    width: 100%;
+    @media (max-width: 768px) {
+      max-width: 100%;
+    }
+  }
+  .ssnCheckWrapper {
+    :global {
+      .form-check-input {
+        outline: 10px solid rgba(221, 221, 221, 0.7);
+        box-shadow: none;
+        margin-right: 20px;
+      }
+      .form-check-input:checked {
+        background-color: #d4b768;
+        box-shadow: none;
+        background-image: none;
+        border: none;
+      }
+    }
+  }
+  .inpCheckWrapper {
+    :global {
+      .form-check {
+        label {
+          line-height: unset;
+          margin: 0;
+          margin-top: 2px;
+        }
+      }
+      .form-check-input {
+        box-shadow: none;
+        margin-right: 10px;
+        padding: 9px;
+        border-color: #d4b768;
+      }
+      .form-check-input:checked {
+        background-color: #d4b768;
+        border-color: #d4b768;
+      }
+    }
+  }
+}
+
+.registerStepWrapper {
+  .tabsWrapper {
+    margin-top: 30px;
+    .agentInfo {
+      h2 {
+        font-size: 20;
+        font-weight: 600;
+        margin-bottom: 30px;
+      }
+      p {
+        font-size: 16px;
+        margin-bottom: 30px;
+        span {
+          font-weight: 600;
+        }
+      }
+    }
+    .tabBtnsWrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      margin-bottom: 30px;
+      .tabBtn {
+        min-width: 200px;
+        width: 47%;
+        display: flex;
+        align-items: center;
+        background-color: #fcfcfc;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 16px;
+        h6 {
+          font-size: 16px;
+          font-weight: 500;
+        }
+        p {
+          margin: 0;
+          font-size: 12px;
+          color: #7a7a7a;
+        }
+      }
+      @media (max-width: 768px) {
+        flex-direction: column;
+        .tabBtn {
+          width: 100%;
+        }
+      }
+    }
+    .tabsContentWrapper {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      box-shadow: 0 24px 32px 0 hsl(0deg 0% 93% / 50%);
+      padding: 24px 32px;
+      .registerBenifits {
+        h2 {
+          font-size: 20px;
+          margin-bottom: 30px;
+        }
+        .benifitList {
+          display: flex;
+          .listIcon {
+            margin-right: 12px;
+          }
+          .listContent {
+            h5 {
+              font-size: 16px;
+              font-weight: 500;
+              margin-bottom: 8px;
+            }
+            p {
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .detailCardDesciption {
+    h5 {
+      font-size: 16px;
+      font-weight: 500;
+      margin-bottom: 16px;
+    }
+    .subTitleList {
+      display: flex;
+      margin-bottom: 5px;
+      .listIcon {
+        margin-right: 10px;
+      }
+      .listText {
+        font-size: 16px;
+        color: #4e4e4e;
+      }
+    }
+  }
+  .detailCardFieldsWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 10px;
+    row-gap: 30px;
+    .inpField {
+      max-width: 47%;
+      width: 100%;
+      @media (max-width: 768px) {
+        max-width: 100%;
+      }
+    }
+  }
+  :global {
+    .form-check-input {
+      outline: 10px solid rgba(221, 221, 221, 0.7);
+      box-shadow: none;
+      margin-right: 20px;
+      cursor: pointer;
+      border-radius: 50%;
+    }
+    .form-check-input:checked {
+      background-color: #d4b768;
+      box-shadow: none;
+      background-image: none;
+      border: none;
+    }
+  }
+}
+
+.stepWrapper {
+  .cardInfoWrapper {
+    margin-top: 0;
+  }
+  .inpField {
+    max-width: 47%;
+    width: 100%;
+    @media (max-width: 768px) {
+      max-width: 100%;
+    }
+  }
+  .tabsWrapper {
+    .tabBtnsWrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      margin-bottom: 30px;
+      .tabBtn {
+        min-width: 200px;
+        width: 47%;
+        display: flex;
+        align-items: center;
+        background-color: #fcfcfc;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 16px;
+        h6 {
+          font-size: 16px;
+          font-weight: 500;
+        }
+        p {
+          margin: 0;
+          font-size: 12px;
+          color: #7a7a7a;
+        }
+      }
+      @media (max-width: 768px) {
+        flex-direction: column;
+        .tabBtn {
+          width: 100%;
+        }
+      }
+    }
+    .tabsContentWrapper {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      box-shadow: 0 24px 32px 0 hsl(0deg 0% 93% / 50%);
+      padding: 24px 32px;
+    }
+  }
+  .detailCardDesciption {
+    font-size: 16px;
+    color: #4e4e4e;
+  }
+  .detailCardFieldsWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 10px;
+    row-gap: 30px;
+    .inpField {
+      max-width: 47%;
+      width: 100%;
+      @media (max-width: 768px) {
+        max-width: 100%;
+      }
+    }
+  }
+  :global {
+    .form-check-input {
+      outline: 10px solid rgba(221, 221, 221, 0.7);
+      box-shadow: none;
+      margin-right: 20px;
+      cursor: pointer;
+    }
+    .form-check-input:checked {
+      background-color: #d4b768;
+      box-shadow: none;
+      background-image: none;
+      border: none;
+    }
+  }
+}
+
+.companyAddressWrapper {
+  .detailCardDesciption {
+    font-size: 16px;
+    color: #4e4e4e;
+  }
+  .detailCardList {
+    list-style: none;
+    padding-left: 0;
+    li {
+      text-decoration: none;
+      display: flex;
+      align-items: flex-start;
+      img {
+        margin: 3px 5px 0 0;
+      }
+    }
+  }
+  .addressSelectWrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    height: max-content;
+    :global {
+      .offer-card-wrapper {
+        flex: 47%;
+        height: unset;
+      }
+    }
+  }
+}
+
+.detailCardWrapper {
+  .detailCardDesciption {
+    font-size: 16px;
+    color: #4e4e4e;
+  }
+  .detailCardFieldsWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 10px;
+    row-gap: 30px;
+    .inpField {
+      max-width: 47%;
+      width: 100%;
+      @media (max-width: 768px) {
+        max-width: 100%;
+      }
+    }
+  }
+  .tabBtnsWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    .tabBtn {
+      min-width: 200px;
+      width: 47%;
+      display: flex;
+      align-items: center;
+      background-color: #fcfcfc;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      padding: 16px;
+      min-height: 70px;
+      position: relative;
+      h6 {
+        font-size: 16px;
+        font-weight: 500;
+        b {
+          font-weight: 600;
+        }
+      }
+      p {
+        margin: 0;
+        font-size: 12px;
+        color: #7a7a7a;
+        b {
+          font-weight: 600;
+        }
+        span {
+          color: #fd8550;
+        }
+      }
+      .fastTag {
+        background-color: #fff;
+        border: 2px solid #fd8550;
+        border-radius: 4px;
+        color: #fd8550;
+        left: 50%;
+        padding: 4px 16px;
+        position: absolute;
+        top: 35px;
+        transform: translate(-50%, -175%);
+      }
+    }
+    @media (max-width: 556px) {
+      flex-direction: column-reverse;
+      .tabBtn {
+        width: 100%;
+      }
+    }
+  }
+  :global {
+    .form-check-input {
+      outline: 10px solid rgba(221, 221, 221, 0.7);
+      box-shadow: none;
+      margin-right: 20px;
+    }
+    .form-check-input:checked {
+      background-color: #d4b768;
+      box-shadow: none;
+      background-image: none;
+      border: none;
+    }
+  }
+}

@@ -1,0 +1,71 @@
+.wrap {
+    padding: 50px 0 50px 0;
+    .textblock{
+        max-width: 900px;
+        margin: 0 auto;
+        margin-bottom: 60px;
+        .heading{
+            font-weight: 600;
+            font-size: 40px;
+            color: #1d1d1d;
+            margin: 0 0 32px 0;
+            text-align: center;
+        }
+        .tagline {
+            font-weight: 400;
+            font-size: 20px;
+            color: #7a7a7a;
+            margin-bottom: 30px;
+            text-align: center;
+          }
+    }
+    .row {
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        margin-top: 90px;
+        &::before {
+            border-radius: 56px;
+            bottom: 0;
+            content: "";
+            display: block;
+            height: calc(100% + 50px);
+            left: 0;
+            margin: 0 auto;
+            max-width: 80%;
+            position: absolute;
+            right: 0;
+            top: -56px;
+            width: 100%;
+            z-index: -1;
+            background: #FEF7E0;
+        }
+        .licenseCard {
+            display: flex;
+            flex-direction: column;
+            -webkit-box-pack: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            align-items: center;
+            width: 100%;
+            background-color: #fff;
+            box-shadow: rgb(236 236 236 / 50%) 0px 24px 32px 0px;
+            padding: 40px 24px;
+            min-height: 150px;
+            margin-bottom: 60px;
+            .licenseCardContent{
+                font-weight: 600;
+                font-size: 20px;
+                color: #1d1d1d;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+            .licenseCardPara{
+                font-weight: 400;
+                font-size: 20px;
+                color: #7a7a7a;
+                text-align: center;
+            }
+        }
+    }
+}

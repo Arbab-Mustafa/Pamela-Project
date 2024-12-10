@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+
+        }
+
+        h1 img {
+            max-width: 100px;
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+
+        hr {
+            border: none;
+            border-bottom: 1px solid #ccc;
+            margin: 20px 0;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .social-icons img {
+            max-width: 20px;
+            max-height: 20px;
+            min-height: 20px;
+        }
+
+        .social-icons a {
+            margin: 0 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1><img src="https://filthyrichidea.com/wp-content/uploads/2023/01/brand-logo-e1612074520948-1024x392.png" /></h1>
+
+    <p>Hi <%= data.name %>,</p>
+
+
+
+    <p>You have New update Related to <b>
+            <%= data.serviceName %>
+        </b> Form <br> Kindly Check </p>
+    <p>Order ID <b>
+            <%= data.id %>
+        </b></p>
+
+    <p>Need help with your new account?</p>
+    <p>
+        You can contact us by sending an email to <a
+            href="mailto:support@filthyrichidea.com">support@filthyrichidea.com</a>. Our customer service team is
+        available weekdays from 9 to 5 eastern time.
+    </p>
+
+    <p>Best regards,</p>
+
+    <p>The Filthy Rich Idea Team</p>
+
+    <hr />
+
+    <p>Filthy Rich Idea</p>
+    <p>2232 Dell Range Blvd, Suite 245-3706, Cheyenne, WY, 82009</p>
+
+    <div class="social-icons">
+        <a href="https://twitter.com/filthyrichidea"><img src="https://twitter.com/favicon.ico" alt="Twitter" /></a>
+        <a href="https://www.instagram.com/filthyrichidea/"><img src="https://www.instagram.com/favicon.ico"
+                alt="Instagram" /></a>
+        <a href="https://www.facebook.com/FilthyRichIdea/"><img src="https://www.facebook.com/favicon.ico"
+                alt="Facebook" /></a>
+        <a href="https://www.youtube.com/channel/UCIoxPaBh9Pp4ioYiZsBLgAQ"><img
+                src="https://www.youtube.com/favicon.ico" alt="YouTube" /></a>
+        <a href="https://www.linkedin.com/company/filthy-rich-idea"><img src="https://www.linkedin.com/favicon.ico"
+                alt="LinkedIn" /></a>
+    </div>
+</body>
+
+</html>

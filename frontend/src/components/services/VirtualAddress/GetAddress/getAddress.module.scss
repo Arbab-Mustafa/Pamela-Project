@@ -1,0 +1,121 @@
+.getAddressWrapper{
+    margin-top: 50px;
+    .getAddressTitle{
+        font-size: 36px;
+        font-weight: 700;
+        color: rgba(29,29,29,1.0);
+        text-align: center;
+    }
+    .getAddressP{
+        font-size: 20px;
+        font-weight: 400;
+        color: rgba(117,117,117,1.0);
+        text-align: center;
+    }
+    .getAddressCard{
+        width: 100%;
+        max-width: 570px;
+        padding: 40px;
+        position: relative;
+        background-color: rgb(255, 255, 255);
+        box-shadow: rgb(236 236 236 / 50%) 0px 24px 32px 0px;
+        border-radius: 5px;
+        margin: 0 auto;
+    }
+    .addressSelectWrapper{
+        :global {
+            .react-select-container {
+              .react-select__control--is-focused {
+                outline: none !important;
+                border-color: #d4b768 !important;
+              }
+              .react-select__control {
+                box-shadow: none !important;
+                min-height: 50px;
+                border-color: #d4b768;
+                &:hover {
+                  border-color: #d4b768 !important;
+                  box-shadow: none !important;
+                  .react-select__indicator {
+                    color: #d4b768;
+                  }
+                }
+                .react-select__indicators {
+                  .react-select__indicator-separator {
+                    display: none !important;
+                  }
+                }
+              }
+              .react-select__indicator {
+                color: #d4b768;
+                padding: 0 16px;
+              }
+              .react-select__single-value {
+                color: #1d1d1d;
+                font-weight: 400;
+                font-size: 16px;
+              }
+              .react-select__placeholder {
+                font-weight: 500;
+                font-size: 16px;
+                color: #1d1d1d;
+              }
+              .react-select__menu {
+                .react-select__menu-list {
+                  padding: 0px !important;
+                  background-color: #f6f9ff;
+                  border: 1px solid #d4b768;
+                  border-radius: 4px;
+                }
+                .react-select__option--is-focused {
+                  background-color: #d4b768;
+                  color: #fff;
+                }
+                .react-select__option--is-selected {
+                  background-color: #282828;
+                  color: #fff;
+                }
+              }
+            }
+          }
+    }
+    .addressBtnWrapper{
+        .btn {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: auto;
+            background-color: #d4b768;
+            border: 2px solid #d4b768;
+            border-radius: 50px;
+            text-decoration: none;
+            padding: 10px 12px;
+            transition: background-color 0.3s ease 0s, color 0.3s ease 0s;
+            max-width: 350px;
+            outline: none;
+            color: #fff;
+            font-size: 16px;
+            text-align: center;
+            font-weight: 700;
+            margin: 30px auto 0 auto;
+            .icon {
+              font-size: 20px;
+              width: 30px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              color: #fff;
+              font-weight: 700;
+            }
+            &:hover {
+              background-color: #fff;
+              color: #d4b768;
+              .icon {
+                color: #d4b768;
+                transform: translate(10px, 0);
+                transition: transform 0.3s ease 0s;
+              }
+            }
+          }
+    }
+}

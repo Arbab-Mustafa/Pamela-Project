@@ -1,0 +1,29 @@
+.wrap {
+  .outer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    .copyright {
+      font-size: 16px;
+      color: rgba(79, 79, 79, 1);
+      max-width: 320px;
+      font-weight: 500;
+    }
+    .iconblock {
+      display: flex;
+      column-gap: 15px;
+      .icon {
+        width: 32px;
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .wrap {
+    .outer {
+      flex-direction: column-reverse;
+      gap: 20px;
+    }
+  }
+}

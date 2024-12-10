@@ -1,0 +1,32 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true
+  },
+  "extends": ["airbnb-base", "prettier", "eslint:recommended"],
+  "parserOptions": {
+    "ecmaVersion": "latest"
+  },
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ],
+    "no-unused-vars": ["error", { "argsIgnorePattern": "next" }],
+    "no-console": "error",
+    "prefer-const": "error",
+    "no-var": "error",
+    "no-underscore-dangle": [
+      "error",
+      { "allow": ["_id", "_update", "_conditions"] }
+    ],
+    "consistent-return": "off",
+    "comma-dangle": ["off", "always-multiline"],
+    "indent": ["warn", 2, { "SwitchCase": 1 }],
+    "arrow-body-style": "off"
+  }
+}

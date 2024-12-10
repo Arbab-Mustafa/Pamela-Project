@@ -1,0 +1,118 @@
+.wrap {
+  .row {
+    align-items: center;
+    .textblock {
+      .heading {
+        text-align: left;
+        padding-bottom: 24px;
+        max-width: 560px;
+        font-size: 48px;
+        font-weight: 700;
+        color: rgba(29, 29, 29, 1);
+      }
+      .tagline {
+        font-size: 20px;
+
+        font-weight: 400;
+        color: rgb(117, 117, 117);
+        margin-bottom: 40px;
+        max-width: 350px;
+      }
+      .button {
+        .btnblock {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: auto;
+          background-color: #d4b768;
+          border: 2px solid #d4b768;
+          border-radius: 50px;
+
+          text-decoration: none;
+          padding: 10px 22px;
+          margin: 0px 0px 32px;
+          transition: background-color 0.3s ease 0s, color 0.3s ease 0s;
+          cursor: pointer;
+          max-width: 280px;
+          .icon {
+            font-size: 20px;
+            width: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            font-weight: 700;
+          }
+          &:hover {
+            background-color: #fff;
+            .btn {
+              color: #d4b768;
+            }
+            .icon {
+              color: #d4b768;
+              transform: translate(10px, 0);
+              transition: transform 0.3s ease 0s;
+            }
+          }
+          .btn {
+            background-color: transparent;
+            outline: none;
+            border: none;
+            color: #fff;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;
+            font-weight: 700;
+          }
+        }
+      }
+    }
+    .mainicon {
+      .main {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
+@media (max-width: 1400px) {
+}
+@media (max-width: 1200px) {
+}
+@media (max-width: 992px) {
+  .wrap {
+    .row {
+      .textblock {
+        .heading {
+          margin-top: 40px;
+          max-width: 100%;
+          padding: 0 15px;
+          text-align: center;
+        }
+        .tagline {
+          max-width: 100%;
+          padding: 0 15px;
+          text-align: center;
+        }
+        .button {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+      .mainicon {
+        .main {
+          max-width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 576px) {
+}
+
+@media (max-width: 475px) {
+}

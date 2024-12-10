@@ -1,0 +1,17 @@
+.stepWrapper {
+    .detailCardDesciption{
+        font-size: 16px;
+        color: #4e4e4e;
+    }
+    .detailCardFieldsWrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        column-gap: 10px;
+        row-gap: 30px;
+        .inpField{
+            max-width: 47%;
+            width: 100%;
+        }
+    }
+}

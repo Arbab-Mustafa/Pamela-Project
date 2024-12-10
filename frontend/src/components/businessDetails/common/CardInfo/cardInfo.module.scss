@@ -1,0 +1,30 @@
+.cardInfoWrapper{
+    margin-top: 30px;
+    .card {
+    display: flex;
+    align-items: center;
+    padding: 28px 32px;
+    border-radius: 16px;
+    gap: 40px;
+    transition: all 0.3s ease-out 0s;
+    background-color: rgb(254, 246, 237);
+    .textblock {
+        margin-bottom: 0px;
+        h2{
+            color: #1d1d1d;
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+        .subtitle {
+        margin-bottom: 0px;
+        b{
+            font-weight: 600;
+        }
+        }
+    }
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
+    }
+}

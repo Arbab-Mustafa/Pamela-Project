@@ -1,0 +1,172 @@
+.offerCardWrapper {
+  padding: 40px 32px;
+  max-width: 100%;
+  background-color: #f2f6ff;
+  position: relative;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  border: 1px solid #f4f4f4;
+  margin: 16px auto;
+  .cardTopContent {
+    text-align: center;
+    h3 {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+    p {
+      font-size: 16px;
+      width: 90%;
+      margin: 0 auto 16px auto;
+      color: #4e4e4e;
+    }
+    img {
+      height: auto;
+      margin: 8px 0;
+      width: 120px;
+    }
+    .cardPrice {
+      font-size: 26px;
+      font-weight: 600;
+      color: #1e1e1e;
+      margin-bottom: unset;
+      line-height: unset;
+    }
+    .priceDesc {
+      text-align: center;
+      font-size: 16px;
+      width: 100%;
+      margin-bottom: 16px;
+      color: #4e4e4e;
+    }
+    .packageFeeWrapper {
+      .packageFeeDetail {
+        margin-bottom: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .packageFeeText {
+          font-size: 16px;
+          color: #4e4e4e;
+        }
+      }
+    }
+  }
+  .benefitWrapper {
+    width: 100%;
+    .headingBox {
+      background-color: #fff;
+      font-size: 14px;
+      font-weight: 600;
+      text-transform: uppercase;
+      box-shadow: 0 24px 32px 0 hsl(0deg 0% 93% / 50%);
+      color: #2a2929;
+      letter-spacing: 1px;
+      margin: 44px 0 24px;
+      padding: 8px 0;
+      text-align: center;
+      width: 100%;
+    }
+    .benefitHighList {
+      background: #fcfdff;
+      box-shadow: 0px 24px 24px rgb(177 190 222 / 15%);
+      border-radius: 12px;
+      margin: 16px 0;
+      padding: 16px 18px;
+      .ul {
+        list-style: none;
+        align-items: center;
+        gap: 20px;
+        display: flex;
+        padding: 0;
+        .li {
+          text-decoration: none;
+        }
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+    .benefitList {
+      margin-top: 16px;
+      .ul {
+        list-style: none;
+        align-items: center;
+        gap: 20px;
+        display: flex;
+        padding: 0;
+        .li {
+          text-decoration: none;
+        }
+      }
+    }
+    .testimonial {
+      margin-top: 16px;
+      padding: 24px 20px 15px;
+      border: solid 1px #e7eeff;
+      background-color: #fbfcff;
+      position: relative;
+      .quoteIcon {
+        width: 37px;
+        height: 26px;
+        object-fit: contain;
+        position: absolute;
+        top: -8px;
+        left: -8px;
+        margin: 0;
+      }
+      .testimonialQuote {
+        font-size: 15px;
+        color: #757575;
+      }
+      .testimonialAuthor {
+        font-size: 15px;
+        font-weight: 600;
+        margin-top: 10px;
+      }
+    }
+  }
+  .getOfferBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-color: #d4b768;
+    border: 2px solid #d4b768;
+    border-radius: 50px;
+    text-decoration: none;
+    padding: 10px 12px;
+    margin: 16px auto;
+    text-transform: capitalize;
+    transition: background-color 0.3s ease 0s, color 0.3s ease 0s;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 600;
+    .icon {
+      font-size: 20px;
+      width: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      font-weight: 700;
+    }
+    &:hover {
+      background-color: #fff;
+      color: #d4b768;
+      .icon {
+        color: #d4b768;
+        transform: translate(10px, 0);
+        transition: transform 0.3s ease 0s;
+      }
+    }
+  }
+}

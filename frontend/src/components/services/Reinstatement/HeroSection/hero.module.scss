@@ -1,0 +1,125 @@
+.wrap {
+  padding: 100px 0 100px 0;
+  position: relative;
+  .row {
+    .textblock {
+      .heading {
+        text-align: left;
+        padding-bottom: 24px;
+        max-width: 560px;
+        font-size: 40px;
+        font-weight: 600;
+        color: rgba(29, 29, 29, 1);
+      }
+      .tagline {
+        font-size: 20px;
+        font-weight: 400;
+        color: rgb(117, 117, 117);
+        margin-bottom: 40px;
+        max-width: 400px;
+      }
+
+      .button {
+        .btn {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: auto;
+          background-color: #d4b768;
+          border: 2px solid #d4b768;
+          border-radius: 50px;
+          text-decoration: none;
+          padding: 10px 12px;
+          margin: 0px 0px 32px;
+          transition: background-color 0.3s ease 0s, color 0.3s ease 0s;
+          max-width: 350px;
+          outline: none;
+          color: #fff;
+          font-size: 16px;
+          text-align: center;
+          font-weight: 700;
+          .icon {
+            font-size: 20px;
+            width: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            font-weight: 700;
+          }
+          &:hover {
+            background-color: #fff;
+            color: #d4b768;
+            .icon {
+              color: #d4b768;
+              transform: translate(10px, 0);
+              transition: transform 0.3s ease 0s;
+            }
+          }
+        }
+      }
+    }
+    .mainicon {
+      position: absolute;
+      top: 60px;
+      .main {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
+@media (max-width: 1400px) {
+  .wrap {
+    .row {
+      .mainicon {
+        .icon {
+          max-width: 80%;
+          height: auto;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1200px) {
+}
+@media (max-width: 992px) {
+  .wrap {
+    padding: 50px 0;
+    .row {
+      flex-direction: column-reverse;
+      .textblock {
+        .heading {
+          margin-top: 40px;
+          max-width: 100%;
+          padding: 0 15px;
+          text-align: center;
+        }
+        .tagline {
+          max-width: 100%;
+          padding: 0 15px;
+          text-align: center;
+        }
+        .button {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+      .mainicon {
+        position: static;
+        .icon {
+          max-width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 576px) {
+}
+
+@media (max-width: 475px) {
+}

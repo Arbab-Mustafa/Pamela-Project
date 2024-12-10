@@ -1,0 +1,40 @@
+.stepWrapper {
+    .detailCardDesciption{
+        font-size: 16px;
+        color: #4e4e4e;
+    }
+    .detailCardFieldsWrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        column-gap: 10px;
+        row-gap: 30px;
+        .inpField{
+            max-width: 47%;
+            width: 100%;
+        }
+        .ssnInpField{
+            max-width: 47%;
+            width: 100%;
+            input{
+                text-align: center;
+                &::placeholder {
+                    text-align: center;
+                }
+            }
+        }
+    }
+    :global {
+        .form-check-input {
+            outline: 10px solid rgba(221, 221, 221, 0.7);
+            box-shadow: none;
+            margin-right: 20px;
+          }
+          .form-check-input:checked {
+            background-color: #d4b768;
+            box-shadow: none;
+            background-image: none;
+            border: none;
+          }
+    }
+}

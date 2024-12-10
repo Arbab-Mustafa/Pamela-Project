@@ -1,0 +1,41 @@
+:global {
+    .modal{
+        .modal-dialog{
+            .modal-content{
+                .modal-header{
+                    padding: 8px;
+                    background: #d4b768;
+                    color: #fff;
+                    .modal-title{
+                        font-size: 16px;
+                        font-weight: 600;
+                    }
+                }
+                .modal-footer{
+                    padding: 8px;
+                    .modal-btn-primary{
+                        background-color: #d4b768;
+                        border: 2px solid #d4b768;
+                        border-radius: 8px;
+                        outline: none;
+                        color: #fff;
+                        font-size: 16px;
+                        font-weight: 600;
+                        margin: 0;
+                    }
+                    .modal-btn-secondary{
+                        background-color: #fff;
+                        border: 2px solid #d4b768;
+                        border-radius: 8px;
+                        outline: none;
+                        color: #d4b768;
+                        font-size: 16px;
+                        font-weight: 600;
+                        margin: 0;
+                        margin-right: 8px;
+                    }
+                }
+            }
+        }
+    }
+}

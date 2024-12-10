@@ -1,0 +1,85 @@
+.wrap {
+    padding: 50px 0 50px 0;
+    .textblock{
+        max-width: 650px;
+        margin: 0 auto;
+        margin-bottom: 60px;
+        .heading{
+            font-weight: 600;
+            font-size: 40px;
+            color: #1d1d1d;
+            margin: 0 0 32px 0;
+            text-align: center;
+        }
+        .tagline {
+            font-weight: 400;
+            font-size: 20px;
+            color: #7a7a7a;
+            margin-bottom: 30px;
+            text-align: center;
+          }
+    }
+    .row {
+        align-items: center;
+        justify-content: center;
+        .licenseCard {
+            display: flex;
+            flex-direction: column;
+            -webkit-box-pack: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            align-items: center;
+            width: 100%;
+            background-color: #fff;
+            box-shadow: rgb(236 236 236 / 50%) 0px 24px 32px 0px;
+            padding: 40px 24px;
+            min-height: 150px;
+            margin-bottom: 60px;
+            .licenseCardImg {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 40px;
+                width: 40px;
+                margin-bottom: 45px;
+                position: relative;
+
+                .iconTypeCheckmark{
+                    margin-left: auto;
+                    margin-right: auto;
+                    text-align: center;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    width: 40px;
+                    height: 40px;
+                    background-color: #97e0c7;
+                    border-radius: 32px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    &::before{
+                        content: '';
+                        width: 64px;
+                        height: 64px;
+                        border-radius: 50%;
+                        position: absolute;
+                        top: -13px;
+                        left: -13px;
+                        z-index: -1;
+                        background: #ffffff;
+                        box-shadow: 0px 24px 32px rgb(236 236 236 / 50%);
+                    }
+                }
+                
+            }
+            .licenseCardContent{
+                font-weight: 600;
+                font-size: 20px;
+                color: #1d1d1d;
+                text-align: center;
+            }
+        }
+    }
+}

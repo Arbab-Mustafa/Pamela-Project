@@ -1,0 +1,34 @@
+.faqAccordionWrapper{
+    box-shadow: rgb(236 236 236 / 50%) 0px 24px 32px 0px;
+    margin-bottom: 8px;
+    width: 100%;
+    .faqAccordionHeader {
+        height: 80px;
+        width: 100%;
+        background: #fff;
+        border: none;
+        outline: none;
+        text-align: left;
+        padding: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .accordionTitle{
+            width: calc(100% - 45px);
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+        .accordionHeaderIcon {
+            transform: rotate(180deg);
+        }
+        .accordionHeaderIconOpen{
+            transform: rotate(0deg);
+        }
+    }
+    .faqAccordionBody{
+        width: 100%;
+        background: #fff;
+        padding: 16px;
+    }
+}

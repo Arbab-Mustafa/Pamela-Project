@@ -1,0 +1,33 @@
+.wrap {
+  padding: 50px 0;
+  .heading {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 24px;
+    color: rgb(117, 117, 117);
+  }
+  .ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    .list {
+      text-decoration: none;
+      font-size: 14px;
+      color: rgb(117, 117, 117);
+    }
+  }
+}
+@media (max-width: 768px) {
+  .wrap{
+    .heading{
+      text-align: center;
+    }
+    .ul{
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}

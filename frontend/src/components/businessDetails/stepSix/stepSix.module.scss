@@ -1,0 +1,63 @@
+.stepWrapper {
+    .detailCardTitle{
+        font-size: 18px;
+        font-weight: 600;
+        color: #4e4e4e;
+        margin-bottom: 12px;
+    }
+    .detailCardDesciption{
+        font-size: 16px;
+        color: #4e4e4e;
+        b{
+            font-weight: 600;
+        }
+    }
+    .accountDetails{
+        background-color: #fcfcfc;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        margin: 0 15px 15px;
+        padding: 16px;
+        hr{
+            margin: 30px auto;
+        }
+        p{
+            font-size: 16px;
+            color: #4e4e4e;
+            b{
+             font-weight: 600;   
+            }
+        }
+    }
+    .bankAccountCheck{
+        margin: 30px auto;
+        :global {
+            .checkWrapper{
+                align-items: center;
+                background-color: #fcfcfc;
+                border: 1px solid #ddd;
+                border-radius: 5px;
+                display: flex;
+                margin: 0 15px 15px;
+                padding: 16px;
+                transition: all .5s;
+                &.active {
+                    border-color: #5089fd;
+                }
+            }
+        }
+    }
+    :global {
+        .form-check-input {
+            outline: 10px solid rgba(221, 221, 221, 0.7);
+            box-shadow: none;
+            margin-right: 20px;
+          }
+          .form-check-input:checked {
+            background-color: #d4b768;
+            box-shadow: none;
+            background-image: none;
+            border: none;
+          }
+    }
+}

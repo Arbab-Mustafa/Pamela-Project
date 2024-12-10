@@ -1,0 +1,92 @@
+.phoneSelectWrapper{
+  width: 100%;
+  .inputFieldLabel{
+    margin-bottom: 4px;
+    color: #7a7a7a;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+  }
+    :global {
+        .react-tel-input .country-list .country .dial-code {
+          color: #000000 !important;
+        }
+        .react-tel-input {
+          width: 100%;
+          border-radius: 5px;
+          background-color: #d4b768;
+
+          .flag-dropdown {
+            .selected-flag:focus {
+              background-color: #d4b768 !important;
+            }
+            .selected-flag:hover {
+              background-color: #d4b768 !important;
+            }
+            &.open .selected-flag{
+              background-color: #d4b768;
+            }
+            .country-list {
+              background-color: #ffffff !important;
+              color: #000000 !important;
+              border: 1px solid grey;
+              border-radius: 10px;
+
+              .country.highlight {
+                background-color: #d4b768;
+                color: #fcfcfc;
+              }
+              .country:hover {
+                background-color: #d4b768;
+
+                color: #000000 !important;
+                .dial-code:hover {
+                  color: #000000 !important;
+                }
+              }
+            }
+            .flag-dropdown.open {
+              background-color: #1d1d1d !important;
+              margin-bottom: 15px !important;
+              .selected-flag {
+                background-color: #d4b768 !important;
+                &:focus {
+                  background: #d4b768 !important;
+                }
+                &:hover {
+                  background: #d4b768 !important;
+                }
+              }
+            }
+          }
+          @media (max-width: 768px) {
+            max-width: 100%;
+          }
+          .form-control {
+            min-height: 48px;
+            width: 100%;
+            background: #fcfcfc;
+            border: 1px solid #d4b768;
+            transition: none !important;
+            color: #000000 !important;
+            font-weight: 300 !important;
+            font-size: 18px !important;
+            padding-left: 45px !important;
+            .flag-dropdown {
+              outline: none !important;
+            }
+          }
+          .form-control:focus {
+            outline: none !important;
+            box-shadow: none !important;
+          }
+          .flag-dropdown {
+            background-color: #d4b768 !important;
+            border: none !important;
+            &:hover {
+              background: #d4b768 !important;
+            }
+          }
+        }
+      }
+}

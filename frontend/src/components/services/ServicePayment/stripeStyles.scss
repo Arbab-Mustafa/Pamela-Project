@@ -1,0 +1,91 @@
+.stripe-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  row-gap: 30px;
+  .subtitle {
+    margin-bottom: 4px;
+    color: #7a7a7a;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .strip-number-inp-wrapper {
+    width: 100%;
+    .strip-cardNumber-element {
+      width: 100%;
+      box-shadow: none;
+      height: 48px;
+      background-color: #fcfcfc;
+      border: 1px solid #d4b768;
+      border-radius: 5px;
+      color: #1d1d1d;
+      font-size: 16px;
+      padding: 12px 24px;
+      margin-bottom: 10px;
+    }
+  }
+  .strip-inp-wrapper {
+    flex: 40%;
+    .strip-element {
+      width: 100%;
+      box-shadow: none;
+      height: 48px;
+      background-color: #fcfcfc;
+      border: 1px solid #d4b768;
+      border-radius: 5px;
+      color: #1d1d1d;
+      font-size: 16px;
+      padding: 12px 24px;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+
+.confirm-btn-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+.confirm-btn {
+    height: auto;
+    background-color: #d4b768;
+    border: 2px solid #d4b768;
+    border-radius: 50px;
+    text-decoration: none;
+    padding: 10px 32px;
+    margin: 0px 0px 32px;
+    max-width: 280px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+  }
+}
+
+.checkbox-wrapper {
+  margin: 8px 0;
+  display: flex;
+  align-items: center;
+  .form-check {
+    label {
+      line-height: unset;
+      margin: 0;
+    }
+  }
+  .form-check-input {
+    box-shadow: none;
+    padding: 9px;
+    border-color: #d4b768;
+  }
+  .form-check-input:checked {
+    background-color: #d4b768;
+    border-color: #d4b768;
+  }
+  a {
+    text-decoration: none;
+  }
+  .checkbox-lablel {
+    margin-top: 4px;
+  }
+}

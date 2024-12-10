@@ -1,0 +1,73 @@
+.moreInfoWrapper{
+    margin-top: 80px;
+    padding: 100px 10px;
+    background-image: linear-gradient(rgb(254, 246, 237) 4%, rgb(255, 255, 255) 99%) !important;
+    .moreInfoTitle{
+        font-size: 36px;
+        font-weight: 700;
+        color: rgba(29,29,29,1.0);
+        text-align: center;
+    }
+    .moreInfoP{
+        font-size: 20px;
+        font-weight: 400;
+        color: rgba(117,117,117,1.0);
+        text-align: center;
+    }
+    .infoCardsWrapper{
+        .infoCard {
+            // max-width: 0px;
+            // min-height: 250px;
+            background-color: rgba(255, 255, 255, 1.0);
+            box-shadow: rgba(236, 236, 236, 0.5) 0px 24px 32px;
+            padding: 50px 20px 20px;
+            border-radius: 20px;
+            position: relative;
+            margin: 0 auto 60px auto;
+            .infoCardLogoWrapper{
+                position: absolute;
+                top: -40px;
+                border-radius: 50%;
+                width: max-content;
+                .infoCardLogo{
+                    border-radius: 50%;
+                    overflow: hidden;
+                    border: 1px solid transparent;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 80px;
+                    width: 80px;
+                    min-height: 80px;
+                    min-width: 80px;
+                    color: rgba(29,29,29,1.0);
+                    font-size: 26px;
+                    font-weight: 600;
+                }
+            }
+            .infoCardContent {
+                margin-top: 30px;
+                h4{
+                    color: rgba(29,29,29,1.0);
+                    font-size: 20px;
+                    font-weight: 700;
+                }
+                p{
+                    padding-bottom: 20px;
+                    font-size: 16px;
+                    line-height: 24px;
+                    margin-bottom: 0px;
+                }
+            }
+        }
+    }
+    @media (max-width: 992px) {
+        .infoCardsWrapper{
+            .infoCard {
+                max-width: unset;
+                min-height: unset;
+                margin-right: unset;
+            }
+        }
+    }
+}

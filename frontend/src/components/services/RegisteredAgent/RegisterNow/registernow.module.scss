@@ -1,0 +1,83 @@
+.registerNowWrapper{
+    .ratingblock {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        padding-left: 20px;
+        .iocn1block {
+          .icon {
+            max-width: 100%;
+          }
+        }
+        .textblock {
+          .title {
+            font-size: 15px;
+            font-weight: 900;
+            line-height: 1.6;
+            color: rgb(78, 78, 78);
+            padding-bottom: 2px;
+            transition: color 0.3s ease 0s;
+            margin-bottom: 0px;
+          }
+          .starblock {
+            display: flex;
+            align-items: center;
+
+            .subtitle {
+              color: rgb(135, 135, 135);
+              font-size: 14px;
+              font-weight: 900;
+              margin-bottom: 0px;
+              padding-left: 10px;
+            }
+          }
+        }
+      }
+    .registerNowContent{
+        padding-top: 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .btn {
+            margin-top: 16px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: auto;
+            background-color: #d4b768;
+            border: 2px solid #d4b768;
+            border-radius: 50px;
+            text-decoration: none;
+            padding: 10px 12px;
+            margin: 16px 0px 32px;
+            transition: background-color 0.3s ease 0s, color 0.3s ease 0s;
+            max-width: 350px;
+            outline: none;
+            color: #fff;
+            font-size: 16px;
+            text-align: center;
+            font-weight: 700;
+            .icon {
+              font-size: 20px;
+              width: 30px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              color: #fff;
+              font-weight: 700;
+            }
+            &:hover {
+              background-color: #fff;
+              color: #d4b768;
+              .icon {
+                color: #d4b768;
+                transform: translate(10px, 0);
+                transition: transform 0.3s ease 0s;
+              }
+            }
+          }
+    }
+}

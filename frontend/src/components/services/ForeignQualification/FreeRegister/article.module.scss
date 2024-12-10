@@ -1,0 +1,45 @@
+.wrap {
+  padding: 50px 0 50px 0;
+  .row {
+    align-items: center;
+    .textblock {
+      .heading {
+        font-weight: 600;
+        font-size: 40px;
+        color: #1d1d1d;
+        margin: 0 0 32px 0;
+      }
+      .tagline {
+        max-width: 550px;
+        font-weight: 400;
+        font-size: 20px;
+        color: #7a7a7a;
+        margin-bottom: 0;
+      }
+    }
+    .mainblock {
+      .main {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
+@media (max-width: 992px) {
+  .wrap {
+    .row {
+      flex-direction: column-reverse;
+      .textblock{
+        padding: 50px 0;
+        .heading{
+            text-align: center;
+        }
+        .tagline{
+            max-width: 100%;
+            padding: 0 15px;
+            text-align: center;
+        }
+      }
+    }
+  }
+}

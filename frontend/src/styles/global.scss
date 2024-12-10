@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,900;1,900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.pagination {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  .background-primary {
+    span {
+      background-color: #d4b768 !important;
+      border: #d4b768;
+      color: white;
+    }
+  }
+}
+
+
+.custom-input{
+
+    width: 100%;
+    box-shadow: none;
+    color: #1d1d1d;
+    height: 48px;
+    background-color: #fcfcfc;
+    border: 1px solid #d4b768;
+    border-radius: 5px;
+    color: #1d1d1d;
+    display: flex;
+    font-size: 16px;
+    padding: 12px 24px;
+    &:focus-visible {
+        outline: none;
+    }
+    &:global{
+    &.inpDisabled{
+        border-color: rgba(212,183,104, 0.6);
+        opacity: 0.6;
+        cursor: not-allowed;
+    }
+}
+}
+

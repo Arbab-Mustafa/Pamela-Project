@@ -1,0 +1,135 @@
+.adminLayoutWrapper{
+    height: 100vh;
+    display: flex;
+    .adminSidebar{
+        width: 250px;
+        min-width: 250px;
+        background-color: #f6f9ff;
+        border-right: 1px solid #f5f5f5;
+        padding: 0 12px;
+        .sidebarLogo {
+            min-height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .sidebarLinksWrapper{
+            padding: 20px 0;
+            overflow: auto;
+            button{
+                all: unset;
+                height: 50px;
+                max-width: 200px;
+                width: 100%;
+                color: #d4b768;
+                font-size: 16px;
+                font-weight: 600;
+                cursor: pointer;
+                border-radius: 8px;
+                padding: 0 10px;
+                margin: 0 auto 5px auto;
+                &:hover {
+                    background-color: #d4b768;
+                    color: #fff;
+                }
+                &:global {
+                    &.active {
+                        background-color: #d4b768;
+                        color: #fff; 
+                    }
+                }
+            }
+        }
+    }
+    .adminContent{
+        flex: 1;
+        overflow-x: hidden;
+        overflow-y: auto;
+        position: relative;
+        .adminHeader{
+            min-height: 50px;
+            background-color: #f6f9ff;
+            border-bottom: 1px solid #f5f5f5;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 12px;
+            position: relative;
+            top: 0;
+            .profileDropDownWrapper{
+                margin-left: auto;
+                :global {
+                  .dropdown {
+                  .dropdown-toggle {
+                    all: unset;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 4px 10px;
+                    background-color: #fff;
+                    border: 1px solid #d4b768;
+                    border-radius: 50px;
+                    color: #d4b768;
+                    font-size: 16px;
+                    font-weight: 600;
+                    cursor: pointer;
+                  }
+                  .dropdown-menu {
+                    right: 0;
+                    left: unset;
+                    margin-top: 6px;
+                    padding: 0;
+                    .dropdown-item {
+                      padding: 10px 20px;
+                      font-weight: 500;
+                      @media (max-width: 992px) {
+                      text-align: center;
+                      }
+                      border-radius: 0;
+                      &:first-child {
+                          border-top-left-radius: 0.32rem;
+                          border-top-right-radius: 0.32rem;
+                      }
+                      &:last-child {
+                          border-bottom-left-radius: 0.32rem;
+                          border-bottom-right-radius: 0.32rem;
+                      }
+                    }
+                    .dropdown-item:hover {
+                        background-color: #d4b768 !important;
+                        color: #fff;
+                    }
+                  }
+                }
+                }
+              }
+        }
+        .adminChildrenWrapper{
+            padding: 20px;
+            width: 100%;
+            height: calc(100% - 50px);
+            overflow-y: auto;
+        }
+    }
+    .sidebarToggler{
+        all: unset;
+        cursor: pointer;
+        color: #d4b768;
+        background: none;
+        border: none;
+        &:active{
+            color: #d4b768;
+            background: none;
+            border: none;
+        }
+    }
+    @media (max-width: 768px) {
+        .adminSidebar{
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            z-index: 9;
+        }
+    }
+}

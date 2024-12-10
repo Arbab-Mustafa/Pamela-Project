@@ -1,0 +1,184 @@
+.wrap {
+  background-image: linear-gradient(rgb(254, 246, 237) 4%, rgba(255, 255, 255, 0) 99%) !important;
+  padding: 100px 0;
+  .row {
+    align-items: center;
+    .textblock {
+      .heading {
+        font-weight: 600;
+        font-size: 40px;
+        color: #1d1d1d;
+        margin: 0 0 32px 0;
+      }
+      .tagline {
+        max-width: 550px;
+        font-weight: 400;
+        font-size: 20px;
+        color: #7a7a7a;
+        margin-bottom: 0;
+        b {
+          font-weight: 600;
+        }
+      }
+    }
+    .form {
+      width: 100%;
+      padding: 48px 40px;
+      background-color: #f6f9ff;
+      box-shadow: 0 24px 32px hsl(0deg 0% 93% / 50%);
+      border-radius: 4px;
+      max-width: 470px;
+      min-height: 540px;
+      margin-left: auto;
+      .title {
+        max-width: 550px;
+        font-weight: 500;
+        font-size: 20px;
+        color: #1d1d1d;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+
+      .form2 {
+        padding-top: 30px;
+        .subtitle {
+          margin-bottom: 0px;
+          font-size: 14px;
+          color: #7a7a7a;
+          font-weight: 400;
+        }
+      }
+      .tagline {
+        text-align: center;
+        font-size: 48px;
+        font-weight: 600;
+        color: #1d1d1d;
+        margin-bottom: 8px;
+        margin-top: 40px;
+      }
+      .tagline2 {
+        text-align: center;
+        font-size: 16px;
+        color: #7a7a7a;
+      }
+      .button {
+        display: flex;
+        justify-content: center;
+        .btnblock {
+          .btn {
+            outline: none;
+            border: none;
+            color: #fff;
+            font-size: 16px;
+            font-weight: 700;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #d4b768;
+            border: 2px solid #d4b768;
+            border-radius: 50px;
+            padding: 10px 32px;
+            margin: 0px 0px 32px;
+            transition: background-color 0.3s ease 0s, color 0.3s ease 0s;
+            cursor: pointer;
+            max-width: 280px;
+            .icon {
+              font-size: 20px;
+              width: 30px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              color: #fff;
+              font-weight: 700;
+            }
+            &:hover {
+              background-color: #fff;
+              color: #d4b768;
+              .icon {
+                color: #d4b768;
+                transform: translate(10px, 0);
+                transition: transform 0.3s ease 0s;
+              }
+            }
+          }
+        }
+      }
+      :global {
+        .react-select-container {
+          .react-select__control--is-focused {
+            outline: none !important;
+            border-color: #d4b768 !important;
+          }
+          .react-select__control {
+            box-shadow: none !important;
+            min-height: 50px;
+            border-color: #d4b768;
+            &:hover {
+              border-color: #d4b768 !important;
+              box-shadow: none !important;
+              .react-select__indicator {
+                color: #d4b768;
+              }
+            }
+            .react-select__indicators {
+              .react-select__indicator-separator {
+                display: none !important;
+              }
+            }
+          }
+          .react-select__indicator {
+            color: #d4b768;
+            padding: 0 16px;
+          }
+          .react-select__single-value {
+            color: #1d1d1d;
+            font-weight: 400;
+            font-size: 16px;
+          }
+          .react-select__placeholder {
+            font-weight: 500;
+            font-size: 16px;
+            color: #1d1d1d;
+          }
+          .react-select__menu {
+            .react-select__menu-list {
+              padding: 0px !important;
+              background-color: #f6f9ff;
+              border: 1px solid #d4b768;
+              border-radius: 4px;
+            }
+            .react-select__option--is-focused {
+              background-color: #d4b768;
+              color: #fff;
+            }
+            .react-select__option--is-selected {
+              background-color: #282828;
+              color: #fff;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 992px) {
+  .wrap {
+    .row {
+      flex-direction: column-reverse;
+      .textblock{
+        padding: 50px 0;
+        .heading{
+            text-align: center;
+        }
+        .tagline{
+            max-width: 100%;
+            padding: 0 15px;
+            text-align: center;
+        }
+      }
+      .form {
+        max-width: 100%;
+      }
+    }
+  }
+}
